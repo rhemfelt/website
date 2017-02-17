@@ -1,4 +1,4 @@
-var name = prompt("Hello supportlians! Give me any name: ");
+var name = prompt("Hello OwnLoclians! Give me any name: ");
 var vomit = prompt("Give me a household appliance: ");
 var verb = prompt("Give me a past tense verb: ");
 var body = prompt("Give me a body part: ");
