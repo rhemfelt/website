@@ -8,7 +8,7 @@ var color = prompt("Give me a color: ");
 alert('Thanks for the story! Press enter to see it: ');
 document.write('There once was a Prince named ' + name); 
 document.write('. He got ever so sick and threw up in the ' + vomit);
-%0D%0A;
+%0D;
 document.write('. Embarassed, he hastily ' + verb);
 document.write(' the vomit with his ' + body);
 document.write(', but his ' + body);
