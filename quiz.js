@@ -1,11 +1,13 @@
 var questionOne = prompt('What is my first name?');
 
 var totalScore = 0;
+
 if (questionOne === 'Robert') {
   totalScore += 1;
 }
 
 var questionTwo = prompt('What is my last name?');
+
 if (questionTwo === 'Hemfelt') {
  totalScore += 1; 
 }
@@ -35,7 +37,7 @@ if (totalScore==3) {
     winner = "You won the silver cup";
 } else if (totalScore==5) {
       winner = "YOU WON THE GOLD CUP, HOLY SHIT";
-} else if (totalScore -= 3) {
+} else if (totalScore < 3) {
         winner = "You did not win any cup, you fucking dipshit";
     }
 
