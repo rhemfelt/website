@@ -41,4 +41,4 @@ if (totalScore==3) {
         winner = "You did not win any cup, you fucking dipshit";
     }
 
-document.write(winner);
+document.write(winner); 
