@@ -12,18 +12,17 @@ if (questionTwo.toUpperCase() === 'HEMFELT') {
 }
 
 var questionThree = prompt('What is my favorite food?');
-
-if (questionThree.toUpperCase === 'PIZZA') {
+if (questionThree.toUpperCase() === 'PIZZA') {
  totalScore +=1; 
 }
 
 var questionFour = prompt('What state was I born in?');
-if (questionFour.toUpperCase === 'TEXAS') {
+if (questionFour.toUpperCase() === 'TEXAS') {
     totalScore += 1;
     }
 
 var questionFive = prompt('Who is my best friend?');
-if (questionFive.toUpperCase === 'TAYLOR') {
+if (questionFive.toUpperCase() === 'TAYLOR') {
  totalScore +=1; 
 }
 
