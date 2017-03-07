@@ -1,28 +1,27 @@
 var questionOne = prompt('What is my first name?');
 
 var totalScore = 0;
-if (questionOne.toUpperCase() === 'ROBERT') {
+if (questionOne === 'ROBERT') {
   totalScore += 1;
 }
 
 var questionTwo = prompt('What is my last name?');
-
-if (questionTwo.toUpperCase() === 'HEMFELT') {
+if (questionTwo === 'HEMFELT') {
  totalScore += 1; 
 }
 
 var questionThree = prompt('What is my favorite food?');
-if (questionThree.toUpperCase() === 'PIZZA') {
+if (questionThree === 'PIZZA') {
  totalScore +=1; 
 }
 
 var questionFour = prompt('What state was I born in?');
-if (questionFour.toUpperCase() === 'TEXAS') {
+if (questionFour === 'TEXAS') {
     totalScore += 1;
     }
 
 var questionFive = prompt('Who is my best friend?');
-if (questionFive.toUpperCase() === 'TAYLOR') {
+if (questionFive === 'TAYLOR') {
  totalScore +=1; 
 }
 
