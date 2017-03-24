@@ -5,13 +5,13 @@ var blue;
 var rgbColor;
 i = 0;
 
-while (i <10) {
+for (i  = 1; i <= 500; i += 1) {
   red = Math.floor(Math.random() * 256 );
 green = Math.floor(Math.random() * 256 );
 blue = Math.floor(Math.random() * 256 );
 rgbColor = 'rgb(' + red + ',' + green + ',' + blue + ')';
 html += '<div style="background-color:' + rgbColor + '"></div>'; 
-  i++;}
+  }
 
 
 document.write(html);
