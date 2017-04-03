@@ -1,7 +1,7 @@
 var questions = [
-  ['How many states are in the United States?', 50],
-  ['How many continents are there?', 7],
-  ['How many legs does an insect have?', 6]
+  ['How old am I?', 28],
+  ['How many siblings do I have?', 2],
+  ['What color is my hair?', 'red']
 ];
 var correctAnswers = 0;
 var question;
