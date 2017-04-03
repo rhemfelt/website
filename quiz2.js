@@ -1,7 +1,7 @@
 var questions = [
   ['How old am I?', 28],
   ['How many siblings do I have?', 2],
-  ['True or false: I aboslutely love canned/jellied cranberry sauce:', true]
+  ['True or false: I aboslutely love canned/jellied cranberry sauce:', 'true']
 ];
 var correctAnswers = 0;
 var question;
