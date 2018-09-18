@@ -86,7 +86,7 @@ window.onload = function () {
     game.load.image('platform2', 'platform_2.png');
     
     //Load spritesheets
-    game.load.spritesheet('player', 'rogerpetingnell.png', 48, 62);
+    game.load.spritesheet('player', 'rogermonster.png', 48, 62);
     game.load.spritesheet('coin', 'coin.png', 36, 44);
     game.load.spritesheet('badge', 'badge.png', 42, 54);
   }
