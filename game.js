@@ -87,7 +87,7 @@ window.onload = function () {
     
     //Load spritesheets
     game.load.spritesheet('player', 'shrek.png', 50, 61);
-    game.load.spritesheet('coin', 'coin.png', 36, 44);
+    game.load.spritesheet('coin', 'shrekspin.png', 50, 38);
     game.load.spritesheet('badge', 'badge.png', 42, 54);
 
   }
