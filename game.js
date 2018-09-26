@@ -24,6 +24,9 @@ function addItems() {
   createItem(650, 250, 'coin');
   createItem(225, 200, 'coin');
   createItem(375, 100, 'coin');
+  createItem(375, 100, 'onion');
+  createItem(370, 500, 'onion');
+  createItem(100, 375, 'onion');
 }
 
 // add platforms to the game
@@ -89,6 +92,7 @@ window.onload = function () {
     game.load.spritesheet('player', 'shrek.png', 50, 61);
     game.load.spritesheet('coin', 'shrekspin.png', 50, 38);
     game.load.spritesheet('badge', 'badge.png', 42, 54);
+    game.load.spritesheet('onion', 'onion.png', 36, 36);
 
   }
 
