@@ -10,7 +10,7 @@ var text;
 var winningMessage;
 var won = false;
 var currentScore = 0;
-var winningScore = 90;
+var winningScore = 80;
 
 // add collectable items to the game
 function addItems() {
@@ -23,7 +23,6 @@ function addItems() {
   createItem(525, 300, 'coin');
   createItem(650, 250, 'coin');
   createItem(225, 200, 'coin');
-  createItem(375, 100, 'coin');
   createItem(375, 100, 'onion');
   createItem(370, 500, 'onion');
   createItem(100, 375, 'onion');
