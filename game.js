@@ -10,7 +10,7 @@ var text;
 var winningMessage;
 var won = false;
 var currentScore = 0;
-var winningScore = 100;
+var winningScore = 90;
 
 // add collectable items to the game
 function addItems() {
@@ -76,15 +76,15 @@ function badgeHandler(player, badge) {
 // setup game when the web page loads
 window.onload = function () {
   game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update, render: render });
-  
+
   // before the game begins
   function preload() {
     game.stage.backgroundColor = '#5db1ad';
-    
+
     //Load images
     game.load.image('platform', 'platform_1.png');
     game.load.image('platform2', 'platform_2.png');
-    
+
     //Load spritesheets
     game.load.spritesheet('player', 'shrek.png', 50, 61);
     game.load.spritesheet('coin', 'shrekspin.png', 50, 38);
@@ -135,7 +135,7 @@ window.onload = function () {
     else {
       player.animations.stop();
     }
-    
+
     if (jumpButton.isDown && (player.body.onFloor() || player.body.touching.down)) {
       player.body.velocity.y = -400;
     }
