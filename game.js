@@ -111,7 +111,6 @@ window.onload = function () {
     player.body.collideWorldBounds = true;
     player.body.gravity.y = 500;
     
-    mySound.play();
     addItems();
     addPlatforms();
 
