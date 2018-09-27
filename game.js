@@ -108,8 +108,6 @@ window.onload = function () {
     game.physics.arcade.enable(player);
     player.body.collideWorldBounds = true;
     player.body.gravity.y = 500;
-    mySound = new sound("AllStar.mp3");
-    mySound.play();
 
     addItems();
     addPlatforms();
