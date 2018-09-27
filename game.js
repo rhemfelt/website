@@ -99,6 +99,8 @@ window.onload = function () {
     game.load.spritesheet('onion', 'onion.png', 36, 36);
 
   }
+  // audio
+   mySound = new sound("AllStar.mp3");
 
   // initial game set up
   function create() {
@@ -108,7 +110,8 @@ window.onload = function () {
     game.physics.arcade.enable(player);
     player.body.collideWorldBounds = true;
     player.body.gravity.y = 500;
-
+    
+    mySound.play();
     addItems();
     addPlatforms();
 
