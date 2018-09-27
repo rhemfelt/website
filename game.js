@@ -157,3 +157,7 @@ window.onload = function () {
   }
 
 };
+
+// background audio //
+var audio = new Audio('AllStar.mp3');
+audio.play();
