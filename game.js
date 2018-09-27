@@ -11,7 +11,7 @@ var winningMessage;
 var won = false;
 var currentScore = 0;
 var winningScore = 80;
-var audio;
+var mySound;
 
 // add collectable items to the game
 function addItems() {
@@ -83,8 +83,6 @@ function badgeHandler(player, badge) {
 // setup game when the web page loads
 window.onload = function () {
   game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update, render: render });
-  var audio = new Audio('AllStar.mp3');
-audio.play();
 
   // before the game begins
   function preload() {
@@ -110,6 +108,8 @@ audio.play();
     game.physics.arcade.enable(player);
     player.body.collideWorldBounds = true;
     player.body.gravity.y = 500;
+    mySound = new sound("AllStar.mp3");
+    mySound.play();
 
     addItems();
     addPlatforms();
