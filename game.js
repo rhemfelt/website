@@ -83,6 +83,8 @@ function badgeHandler(player, badge) {
 // setup game when the web page loads
 window.onload = function () {
   game = new Phaser.Game(800, 600, Phaser.AUTO, '', { preload: preload, create: create, update: update, render: render });
+  var audio = new Audio('AllStar.mp3');
+audio.play();
 
   // before the game begins
   function preload() {
@@ -159,6 +161,3 @@ window.onload = function () {
 
 };
 
-// background audio //
-var audio = new Audio('AllStar.mp3');
-audio.play();
