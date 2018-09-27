@@ -128,7 +128,6 @@ window.onload = function () {
     game.physics.arcade.overlap(player, items, itemHandler);
     game.physics.arcade.overlap(player, badges, badgeHandler);
     player.body.velocity.x = 0;
-    mySound.play();
 
     // is the left cursor key presssed?
     if (cursors.left.isDown) {
