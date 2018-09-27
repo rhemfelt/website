@@ -86,7 +86,8 @@ window.onload = function () {
 
   // before the game begins
   function preload() {
-    game.stage.backgroundColor = '#37C967';
+    
+    game.stage.backgroundColor = '#228b22';
 
     //Load images
     game.load.image('platform', 'platform_1.png');
@@ -109,6 +110,7 @@ window.onload = function () {
     player.body.collideWorldBounds = true;
     player.body.gravity.y = 500;
     
+
     addItems();
     addPlatforms();
 
