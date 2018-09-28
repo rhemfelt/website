@@ -104,7 +104,7 @@ window.onload = function () {
     game.load.spritesheet('coin', 'shrekspin.png', 50, 38);
     game.load.spritesheet('badge', 'badge.png', 42, 54);
     game.load.spritesheet('onion', 'onion.png', 36, 36);
-    game.load.spritesheet('star', 'star.png', 32, 32);
+    game.load.spritesheet('star', 'donkey.png', 24, 42);
   }
 
   // initial game set up
