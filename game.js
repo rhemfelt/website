@@ -28,8 +28,8 @@ function addItems() {
   createItem(375, 100, 'onion');
   createItem(370, 500, 'onion');
   createItem(100, 375, 'onion');
-  createItem(720, 5, 'onion');
-  createItem(230, 10, 'star');
+  createItem(710, 5, 'onion');
+  createItem(230, 15, 'star');
   createItem(760, 5, 'star');
 }
 
