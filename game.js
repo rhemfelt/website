@@ -75,7 +75,7 @@ function itemHandler(player, item) {
   }
   if (currentScore === winningScore) {
       createBadge();
-  } else if (currentScore === winningScore2) {
+  } if (currentScore === winningScore2) {
       createBadge();
 }
 
