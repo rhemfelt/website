@@ -78,6 +78,8 @@ function itemHandler(player, item) {
       createBadge();
   } else if (currentScore === winningScore2) {
       createBadge();
+  } else if (currentScore >= 80) {
+      createBadge();
   }
 }
 
