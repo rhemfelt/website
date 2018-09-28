@@ -27,6 +27,7 @@ function addItems() {
   createItem(375, 100, 'onion');
   createItem(370, 500, 'onion');
   createItem(100, 375, 'onion');
+  createItem(125, 50, 'star');
 }
 
 // add platforms to the game
@@ -68,6 +69,8 @@ function itemHandler(player, item) {
     currentScore = currentScore + 10;
   } else if (item.key === 'onion') {
      currentScore = currentScore - 25;
+  } else if (item.key === 'star') {
+     currentScore = currentScore + 25;
   }
   if (currentScore === winningScore) {
       createBadge();
@@ -98,7 +101,7 @@ window.onload = function () {
     game.load.spritesheet('coin', 'shrekspin.png', 50, 38);
     game.load.spritesheet('badge', 'badge.png', 42, 54);
     game.load.spritesheet('onion', 'onion.png', 36, 36);
-
+    game.load.spritesheet('star', 'star.png', 32, 32);
   }
 
   // initial game set up
