@@ -11,6 +11,7 @@ var winningMessage;
 var won = false;
 var currentScore = 0;
 var winningScore = 80;
+var winningScore2 = 105;
 var mySound;
 
 // add collectable items to the game
@@ -74,7 +75,7 @@ function itemHandler(player, item) {
   }
   if (currentScore === winningScore) {
       createBadge();
-  } else if (currentScore === '105') {
+  } else if (currentScore === winningScore2) {
       createBadge();
 }
 
