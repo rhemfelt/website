@@ -141,7 +141,7 @@ window.onload = function () {
 
   // initial game set up
   function create() {
-    player = game.add.sprite(25, 550, 'player');
+    player = game.add.sprite(20, 550, 'player');
     player.animations.add('walk');
     player.anchor.setTo(0.5, 1);
     game.physics.arcade.enable(player);
