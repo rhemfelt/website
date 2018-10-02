@@ -49,6 +49,8 @@ function addPlatforms() {
   platforms.create(100, 75, 'platform2');
   platforms.create(0, 575, 'grass');
   platforms.create(30, 575, 'grass');
+  platforms.create(60, 575, 'grass');
+  platforms.create(90, 575, 'grass');
   platforms.setAll('body.immovable', true);
 }
 
