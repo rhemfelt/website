@@ -13,6 +13,7 @@ var currentScore = 0;
 var winningScore = 80;
 var winningScore2 = 105;
 var mySound;
+var grass;
 
 // add collectable items to the game
 function addItems() {
@@ -47,34 +48,39 @@ function addPlatforms() {
   platforms.create(300, 450, 'platform2');
   platforms.create(400, 350, 'platform2');
   platforms.create(100, 75, 'platform2');
-  platforms.create(0, 575, 'grass');
-  platforms.create(30, 575, 'grass');
-  platforms.create(60, 575, 'grass');
-  platforms.create(90, 575, 'grass');
-  platforms.create(120, 575, 'grass');
-  platforms.create(150, 575, 'grass');
-  platforms.create(180, 575, 'grass');
-  platforms.create(210, 575, 'grass');
-  platforms.create(240, 575, 'grass');
-  platforms.create(270, 575, 'grass');
-  platforms.create(300, 575, 'grass');
-  platforms.create(330, 575, 'grass');
-  platforms.create(360, 575, 'grass');
-  platforms.create(390, 575, 'grass');
-  platforms.create(420, 575, 'grass');
-  platforms.create(450, 575, 'grass');
-  platforms.create(480, 575, 'grass');
-  platforms.create(510, 575, 'grass');
-  platforms.create(540, 575, 'grass');
-  platforms.create(570, 575, 'grass');
-  platforms.create(600, 575, 'grass');
-  platforms.create(630, 575, 'grass');
-  platforms.create(660, 575, 'grass');
-  platforms.create(690, 575, 'grass');
-  platforms.create(720, 575, 'grass');
-  platforms.create(750, 575, 'grass');
-  platforms.create(780, 575, 'grass');
   platforms.setAll('body.immovable', true);
+}
+
+// add grass to the game
+function addGrass() {
+  grass = game.add.physicsGroup();
+  grass.create(0, 575, 'grass');
+  grass.create(30, 575, 'grass');
+  grass.create(60, 575, 'grass');
+  grass.create(90, 575, 'grass');
+  grass.create(120, 575, 'grass');
+  grass.create(150, 575, 'grass');
+  grass.create(180, 575, 'grass');
+  grass.create(210, 575, 'grass');
+  grass.create(240, 575, 'grass');
+  grass.create(270, 575, 'grass');
+  grass.create(300, 575, 'grass');
+  grass.create(330, 575, 'grass');
+  grass.create(360, 575, 'grass');
+  grass.create(390, 575, 'grass');
+  grass.create(420, 575, 'grass');
+  grass.create(450, 575, 'grass');
+  grass.create(480, 575, 'grass');
+  grass.create(510, 575, 'grass');
+  grass.create(540, 575, 'grass');
+  grass.create(570, 575, 'grass');
+  grass.create(600, 575, 'grass');
+  grass.create(630, 575, 'grass');
+  grass.create(660, 575, 'grass');
+  grass.create(690, 575, 'grass');
+  grass.create(720, 575, 'grass');
+  grass.create(750, 575, 'grass');
+  grass.create(780, 575, 'grass');
 }
 
 // create a single animated item and add to screen
@@ -151,6 +157,7 @@ window.onload = function () {
 
     addItems();
     addPlatforms();
+    addGrass();
 
     cursors = game.input.keyboard.createCursorKeys();
     jumpButton = game.input.keyboard.addKey(Phaser.Keyboard.SPACEBAR);
