@@ -82,7 +82,7 @@ function addGrass() {
   grass.create(720, 575, 'grass');
   grass.create(750, 575, 'grass');
   grass.create(780, 575, 'grass');
-  grass.create(550, 10, 'cloud');
+  grass.create(550, 2, 'cloud');
 }
 
 // create a single animated item and add to screen
