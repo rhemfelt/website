@@ -62,6 +62,18 @@ function addPlatforms() {
   platforms.create(360, 575, 'grass');
   platforms.create(390, 575, 'grass');
   platforms.create(420, 575, 'grass');
+  platforms.create(450, 575, 'grass');
+  platforms.create(480, 575, 'grass');
+  platforms.create(510, 575, 'grass');
+  platforms.create(540, 575, 'grass');
+  platforms.create(570, 575, 'grass');
+  platforms.create(600, 575, 'grass');
+  platforms.create(630, 575, 'grass');
+  platforms.create(660, 575, 'grass');
+  platforms.create(690, 575, 'grass');
+  platforms.create(720, 575, 'grass');
+  platforms.create(750, 575, 'grass');
+  platforms.create(780, 575, 'grass');
   platforms.setAll('body.immovable', true);
 }
 
