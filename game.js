@@ -31,7 +31,7 @@ function addItems() {
   createItem(710, 5, 'onion');
   createItem(230, 15, 'star');
   createItem(760, 5, 'star');
-  createItem(0, 400, 'grass');
+  createItem(0, 500, 'grass');
 }
 
 // add platforms to the game
@@ -110,7 +110,7 @@ window.onload = function () {
     game.load.spritesheet('badge', 'badge.png', 42, 54);
     game.load.spritesheet('onion', 'onion.png', 36, 36);
     game.load.spritesheet('star', 'donkey.png', 34, 60);
-    game.load.spritesheet('grass', 'grass2.png', 50, 50);
+    game.load.spritesheet('grass', 'grass2.png', 30, 30);
   }
 
   // initial game set up
