@@ -14,6 +14,7 @@ var winningScore = 80;
 var winningScore2 = 105;
 var mySound;
 var grass;
+var cloud;
 
 // add collectable items to the game
 function addItems() {
@@ -81,6 +82,7 @@ function addGrass() {
   grass.create(720, 575, 'grass');
   grass.create(750, 575, 'grass');
   grass.create(780, 575, 'grass');
+  grass.create(100, 100, 'cloud');
 }
 
 // create a single animated item and add to screen
@@ -143,6 +145,7 @@ window.onload = function () {
     game.load.spritesheet('onion', 'onion.png', 36, 36);
     game.load.spritesheet('star', 'donkey.png', 34, 60);
     game.load.spritesheet('grass', 'grass2.png', 30, 30);
+    game.load.spritesheet('cloud', 'cloud.png', 275, 275);
   }
 
   // initial game set up
