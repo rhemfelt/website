@@ -124,7 +124,7 @@ window.onload = function () {
   // before the game begins
   function preload() {
     
-    game.stage.backgroundColor = '#556b2f';
+    game.stage.backgroundColor = '#00bfff';
 
     //Load images
     game.load.image('platform', 'platform_1.png');
