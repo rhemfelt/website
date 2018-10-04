@@ -1,5 +1,5 @@
 var questions = [
-  ['How old am I?', 28],
+  ['How old am I?', 29],
   ['How many siblings do I have?', 2],
   ['What year did I graduate high school?', 2007]
 ];
@@ -34,7 +34,7 @@ for (var i = 0; i < questions.length; i += 1) {
     correct.push(question);
   } else {
     wrong.push(question);
-  } 
+  }
 }
 
 html = "You got " + correctAnswers + " question(s) right."
