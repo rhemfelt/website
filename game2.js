@@ -112,6 +112,8 @@ function itemHandler(player, item) {
      currentScore = currentScore - 25;
   } else if (item.key === 'star') {
      currentScore = currentScore + 25;
+  } else if (item.key === 'farquaad') {
+     currentScore = currentScore - 25;
   }
   if (currentScore === winningScore) {
       createBadge();
