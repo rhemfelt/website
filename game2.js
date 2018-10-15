@@ -163,6 +163,8 @@ window.onload = function () {
     player.body.collideWorldBounds = true;
     player.body.gravity.y = 500;
     
+    //enable farquaad arcade physics
+    game.physics.arcade.enable(farquaad);
 
     addItems();
     addPlatforms();
@@ -204,6 +206,7 @@ window.onload = function () {
       player.body.velocity.y = -400;
     }
 
+  //farquaad jump
     if (jumpButton.isDown && (farquaad.body.onFloor() || farquaad.body.touching.down)) {
       farquaad.body.velocity.y = -400;
     }
