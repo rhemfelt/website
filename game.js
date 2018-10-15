@@ -200,7 +200,6 @@ window.onload = function () {
     // when the player winw the game
     if (won) {
       winningMessage.text = "You're Winner !";
-      winningMessage.addEventListener("click", game2.js);
     }
   }
 
