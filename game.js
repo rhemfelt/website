@@ -200,6 +200,7 @@ window.onload = function () {
     // when the player winw the game
     if (won) {
       winningMessage.text = "You're Winner !";
+      document.write('LEVEL 2'.link('http://www.roberthemfelt.com/game2.html'));
     }
   }
 
