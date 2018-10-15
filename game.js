@@ -199,7 +199,8 @@ window.onload = function () {
     }
     // when the player winw the game
     if (won) {
-      winningMessage.text = ('LEVEL 2'.link('http://www.roberthemfelt.com/game2.html'));
+      winningMessage.text = "You're Winner !";
+      winningMessage.addEventListener("click", game2.js);
     }
   }
 
