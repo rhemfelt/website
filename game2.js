@@ -34,8 +34,8 @@ function addItems() {
   createItem(710, 5, 'onion');
   createItem(230, 15, 'star');
   createItem(760, 5, 'star');
-  createItem(150, 200, 'farquaad');
-  createItem(750, 250, 'farquaad');
+  createItem(150, 210, 'farquaad');
+  createItem(750, 260, 'farquaad');
 }
 
 // add platforms to the game
