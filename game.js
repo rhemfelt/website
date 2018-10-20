@@ -6,7 +6,6 @@ var badges;
 var items;
 var cursors;
 var jumpButton;
-var jumpClick;
 var text;
 var winningMessage;
 var won = false;
@@ -195,14 +194,9 @@ window.onload = function () {
       player.animations.stop();
     }
 
-    if (myFunction.onclick && (player.body.onFloor() || player.body.touching.down)) {
-      player.body.velocity.y = -400;
-    }
-    // add jump button event
     if (jumpButton.isDown && (player.body.onFloor() || player.body.touching.down)) {
       player.body.velocity.y = -400;
     }
-
     // when the player winw the game
     if (won) {
       winningMessage.text = "You're Winner !";
