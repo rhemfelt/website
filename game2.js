@@ -36,6 +36,7 @@ function addItems() {
   createItem(760, 5, 'star');
   createItem(150, 210, 'farquaad');
   createItem(750, 260, 'farquaad');
+  createItem(330, 575, 'farquaad');
 }
 
 // add platforms to the game
@@ -136,7 +137,7 @@ window.onload = function () {
 
   // before the game begins
   function preload() {
-    
+
     game.stage.backgroundColor = '#87cefa';
 
     //Load images
@@ -215,4 +216,3 @@ window.onload = function () {
   }
 
 };
-
