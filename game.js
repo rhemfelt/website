@@ -203,7 +203,7 @@ window.onload = function () {
     // when the player winw the game
     if (won) {
       winningMessage.text = "You're Winner !";
-      winningLink = winningLink.link("http://www.roberthemfelt.com/game2");
+      winningLink.link("http://www.roberthemfelt.com/game2");
       winningLink.text = "LEVEL 2";
     }
   }
