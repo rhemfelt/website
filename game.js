@@ -168,6 +168,8 @@ window.onload = function () {
     text = game.add.text(16, 16, "SCORE: " + currentScore, { font: "bold 24px Arial", fill: "white" });
     winningMessage = game.add.text(game.world.centerX, 275, "", { font: "bold 48px Arial", fill: "white" });
     winningMessage.anchor.setTo(0.5, 1);
+    winningLink = game.add.text(game.world.centerX, 275, "", { font: "bold 48px Arial", fill: "white" });
+    winningLink.anchor.setTo(0.5, 1);
   }
 
   // while the game is running
