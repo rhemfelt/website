@@ -170,7 +170,6 @@ window.onload = function () {
     winningMessage.anchor.setTo(0.5, 1);
     winningLink = game.add.text(game.world.centerX, 225, "", { font: "bold 48px Arial", fill: "white" });
     winningLink.anchor.setTo(0.25, 0.5);
-    winningLink.link("http://www.roberthemfelt.com/game2");
   }
 
   // while the game is running
@@ -204,7 +203,7 @@ window.onload = function () {
     // when the player winw the game
     if (won) {
       winningMessage.text = "You're Winner !";
-      winningLink.text = "LEVEL 2";
+      winningLink.text = "LEVEL 2" + winningLink.link("http://www.roberthemfelt.com/game2");
     }
   }
 
