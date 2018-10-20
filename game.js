@@ -15,7 +15,7 @@ var winningScore2 = 105;
 var mySound;
 var grass;
 var cloud;
-var winningLink;
+var winningLink = "Level 2";
 
 // add collectable items to the game
 function addItems() {
@@ -203,7 +203,7 @@ window.onload = function () {
     // when the player winw the game
     if (won) {
       winningMessage.text = "You're Winner !";
-      winningLink.text = "LEVEL 2" + winningLink.link("http://www.roberthemfelt.com/game2");
+      document.write("<p>Link: " + winningLink.link("http://www.roberthemfelt.com/game2") + "</p>");
     }
   }
 
