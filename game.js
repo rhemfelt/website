@@ -204,6 +204,7 @@ window.onload = function () {
     if (won) {
       winningMessage.text = "You're Winner !";
       winningLink.text = "LEVEL 2";
+      winningLink.link("http://www.roberthemfelt.com/game2");
     }
   }
 
