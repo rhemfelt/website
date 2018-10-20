@@ -131,7 +131,7 @@ window.onload = function () {
 
   // before the game begins
   function preload() {
-    
+
     game.stage.backgroundColor = '#00bfff';
 
     //Load images
@@ -156,7 +156,7 @@ window.onload = function () {
     game.physics.arcade.enable(player);
     player.body.collideWorldBounds = true;
     player.body.gravity.y = 500;
-    
+
 
     addItems();
     addPlatforms();
@@ -208,4 +208,3 @@ window.onload = function () {
   }
 
 };
-
