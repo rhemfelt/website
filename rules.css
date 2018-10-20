@@ -1,0 +1,11 @@
+body {background-color: #87cefa;}
+
+* {
+    font-size: 1.1em;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1 {
+    font-size: 1.5em;
+}
