@@ -1,7 +1,7 @@
-body {background-color: #87cefa;}
+body {background: radial-gradient(#F4FEF4 0%, #C0C0C0 100%);}
 
 * {
-    font-size: 1.08em;
+    font-size: 1.05em;
     text-align: center;
     font-family: 'Josefin Sans', sans-serif;
 }
