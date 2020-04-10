@@ -6,6 +6,7 @@
 
 <p>Please input a number between 1 and 10:</p>
 
+<! ––Begin first input validation––>
 <input id="numb">
 
 <button type="button" onclick="myFunction()">Submit</button>
@@ -28,6 +29,35 @@ function myFunction() {
   document.getElementById("demo").innerHTML = text;
 }
 </script>
+<! ––End first input validation––>
+
+<p>Please input a number between 11 and 20:</p>
+
+<!Begin second input validation––>
+<input id="numb2">
+
+<button type="button" onclick="myFunctionTwo()">Submit</button>
+
+<p id="demo2"></p>
+
+<script>
+function myFunctionTwo() {
+  var y, text;
+
+  // Get the value of the input field with id="numb2"
+  y = document.getElementById("numb2").value;
+
+  // If x is Not a Number or less than one or greater than 10
+  if (isNaN(y) || y < 11|| y > 20) {
+    text = "Input not valid";
+  } else {
+    text = "Input OK";
+  }
+  document.getElementById("demo2").innerHTML = text;
+}
+</script>
+<!End second input validation––>
+
 <p><a href="http://roberthemfelt.com/about"><button>BACK</button>
 </body>
 </html>
