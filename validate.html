@@ -58,6 +58,60 @@ function myFunctionTwo() {
 </script>
 <!End second input validation––>
 
+<p>Please input a number between 20 and 100:</p>
+
+<!Begin third input validation––>
+<input id="numb3">
+
+<button type="button" onclick="myFunctionThree()">Submit</button>
+
+<p id="demo3"></p>
+
+<script>
+function myFunctionThree() {
+  var y, text;
+
+  // Get the value of the input field with id="numb2"
+  y = document.getElementById("numb3").value;
+
+  // If x is Not a Number or less than one or greater than 10
+  if (isNaN(y) || y < 20|| y > 100) {
+    text = "Input not valid";
+  } else {
+    text = "Input OK";
+  }
+  document.getElementById("demo3").innerHTML = text;
+}
+</script>
+<!End third input validation––>
+
+<p>Please input a number between 100 and 1000:</p>
+
+<!Begin fourth input validation––>
+<input id="numb4">
+
+<button type="button" onclick="myFunctionFour()">Submit</button>
+
+<p id="demo4"></p>
+
+<script>
+function myFunctionFour() {
+  var y, text;
+
+  // Get the value of the input field with id="numb2"
+  y = document.getElementById("numb4").value;
+
+  // If x is Not a Number or less than one or greater than 10
+  if (isNaN(y) || y < 100|| y > 1000) {
+    text = "Input not valid";
+  } else {
+    text = "Input OK";
+  }
+  document.getElementById("demo4").innerHTML = text;
+}
+</script>
+<!End fourth input validation––>
+
 <p><a href="http://roberthemfelt.com/about"><button>BACK</button>
 </body>
 </html>
