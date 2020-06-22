@@ -15,6 +15,6 @@ if (names.length % 2 != 0) {
             //        ^^ if the first value is the same as name1,
             //           get the last value, otherwise get the first
 
-        document.write(name1 + ' gets ' + name2 + ', ');
+        document.write(name1 + ' gets ' + name2 + '!<br>');
     }
 }
