@@ -1,4 +1,4 @@
-var names = ["Dustin","Robert","Taylor","Maddi","Andrea","Jen","Zac","Meranda","Maggi","Henry/Lauren"];
+var names = ["Dustin","Robert","Taylor","Maddi","Andrea","Jen","Zac","Meranda","Maggi","Henry", "Lauren", "Devlin"];
 
 if (names.length % 2 != 0) {
     alert("You must have an even number of names. You currently have " + names.length + " names.");
